@@ -1,0 +1,43 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    flex-grow: 1;
+    overflow: auto;
+    background-color: darkgoldenrod;
+    display: flex;
+}
+
+
+/*? Main */
+main {
+    flex-grow: 1;
+}
+
+#sidebar {
+    flex-basis: 50px;
+    background-color: dodgerblue;
+}
+
+
+/** Footer */
+footer {
+    height: 100px;
+    flex-shrink: 0;
+    background-color: #282828;
+}
