@@ -23,16 +23,39 @@ body {
     display: flex;
 }
 
+/*! Sidebar  */
+#sidebar {
+    flex-basis: 60px;
+    background-color: dodgerblue;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
 
 /*? Main */
 main {
     flex-grow: 1;
 }
 
-#sidebar {
-    flex-basis: 50px;
-    background-color: dodgerblue;
+.contain {
+    display: flex;
+    flex-direction: column;
 }
+
+/* Header */
+#main-header {
+    flex-basis: 100px;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* Main Section */
+#main-section {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+
 
 
 /** Footer */
