@@ -31,8 +31,9 @@ body {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: gray;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 ul {
@@ -45,7 +46,19 @@ img {
 
 h2 {
     color: #fff;
+    margin-bottom: 10px;
 }
+
+h3 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+p {
+    color: gray;
+    font-size: 0.8rem;
+}
+
 
 /* Utils */
 .btn {
@@ -64,6 +77,14 @@ h2 {
 .xs {
     height: 15px;
     width: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.br50 {
+    border-radius: 50%;
 }
 
 
@@ -124,8 +145,21 @@ main {
     margin-top: 40px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 -10px;
+}
 
+.col {
+    flex-basis: 50%;
+    padding: 10px;
+}
 
+.card {
+    text-align: center;
+}
 
 
 /** Footer */
