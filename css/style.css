@@ -16,7 +16,7 @@ body {
     height: 100vh;
 }
 
-.container {
+.content {
     flex-grow: 1;
     overflow: auto;
     background-color: darkgoldenrod;
