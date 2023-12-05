@@ -19,13 +19,18 @@ body {
 .content {
     flex-grow: 1;
     overflow: auto;
-    background-color: darkgoldenrod;
+    background-color: #141922;
     display: flex;
 }
 
 a {
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
 }
 
 img {
@@ -94,8 +99,14 @@ main {
     margin-bottom: 20px;
 }
 
-/* Main Section */
-#main-section {}
+/* Section Options */
+.options-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 
 
 
