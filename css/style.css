@@ -23,6 +23,12 @@ body {
     display: flex;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -35,6 +41,10 @@ ul {
 
 img {
     width: 100%;
+}
+
+h2 {
+    color: #fff;
 }
 
 /* Utils */
@@ -104,7 +114,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    column-gap: 30px;
+    row-gap: 20px;
+    font-size: 0.8rem
+}
+
+/* Section Play */
+#section-play {
+    margin-top: 40px;
 }
 
 
