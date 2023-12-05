@@ -54,6 +54,10 @@ h3 {
     margin: 10px 0;
 }
 
+h4 {
+    color: #fff;
+}
+
 p {
     color: gray;
     font-size: 0.8rem;
@@ -85,6 +89,10 @@ p {
 
 .br50 {
     border-radius: 50%;
+}
+
+.fa-regular.big {
+    font-size: 25px;
 }
 
 
@@ -167,4 +175,115 @@ footer {
     height: 100px;
     flex-shrink: 0;
     background-color: #282828;
+
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+/* Footer Info */
+.footer-info {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-info figure {
+    height: 50px;
+    width: 50px;
+}
+
+.info-action i {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+/* Footer Options */
+.footer-options {
+    flex-basis: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options-action {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options-action i {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.options-time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    border-bottom: 4px solid gray;
+    border-radius: 2px;
+
+    position: relative;
+}
+
+.progress-bar .current-progress {
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 35%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.options-time p {
+    flex-basis: 10%;
+}
+
+/* Footer Action */
+.footer-action {
+    flex-basis: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.action-icons {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+.action-icons i {
+    color: #fff;
+    font-size: 12px;
+    line-height: 100px;
+}
+
+.action-bar {
+    flex-grow: 1;
+    border-bottom: 4px solid gray;
+    border-radius: 2px;
+    margin-right: 10px;
+
+    position: relative;
+}
+
+.action-bar .bar-progress {
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 35%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
 }
