@@ -28,32 +28,28 @@ body {
     flex-basis: 60px;
     background-color: dodgerblue;
     flex-shrink: 0;
-    overflow: hidden;
 }
 
 
 /*? Main */
 main {
     flex-grow: 1;
-}
-
-.contain {
-    display: flex;
-    flex-direction: column;
+    overflow: auto;
 }
 
 /* Header */
 #main-header {
-    flex-basis: 100px;
-    flex-shrink: 0;
-    background-color: rgba(0, 0, 0, 1);
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 /* Main Section */
-#main-section {
-    flex-grow: 1;
-    overflow: auto;
-}
+#main-section {}
 
 
 
