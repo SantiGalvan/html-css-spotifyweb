@@ -108,7 +108,8 @@ p {
     justify-content: space-between;
 }
 
-figure {
+.top-nav,
+.bottom-nav {
     margin: 10px;
     line-height: 30px;
     text-align: center;
@@ -187,6 +188,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-left: 10px;
 }
 
 .footer-info figure {
@@ -286,4 +288,12 @@ footer {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+/* Media Query */
+@media screen and (min-width: 576px) {
+    #sidebar {
+        flex-basis: 200px;
+    }
+
 }

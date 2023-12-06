@@ -28,18 +28,33 @@
         <div class="content">
 
             <!-- Sidebar -->
-            <nav id="sidebar">
-                <figure>
-                    <img src="img/logo-small.svg" alt="logo spotify">
-                    <img src="img/home.svg" alt="">
-                    <img src="img/search.svg" alt="">
-                    <img src="img/libreria.svg" alt="">
-                </figure>
-                <figure>
+            <div id="sidebar">
+                <nav class="top-nav">
+                    <a href="#"><img src="img/logo-small.svg" alt="logo spotify"></a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/home.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/search.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/libreria.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="playlist"></div>
+                <nav class="bottom-nav">
                     <img src="img/download.svg" alt="" class="xs">
                     <img src="img/profile.svg" alt="" class="circle">
-                </figure>
-            </nav>
+                </nav>
+            </div>
 
             <!-- Main -->
             <main>
@@ -52,7 +67,7 @@
                 <div class="container">
 
                     <!-- Section Options -->
-                    <section id="section-options">
+                    <nav id="section-options">
                         <ul class="options-list">
                             <li><a href="">In evidenza</a></li>
                             <li><a href="">Podcast</a></li>
@@ -61,7 +76,7 @@
                             <li><a href="">Nuove uscite</a></li>
                             <li><a href="">Scopri</a></li>
                         </ul>
-                    </section>
+                    </nav>
 
                     <!-- Section Play -->
                     <section id="section-play">
