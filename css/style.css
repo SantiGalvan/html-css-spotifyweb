@@ -95,6 +95,22 @@ p {
     font-size: 25px;
 }
 
+/*? Display */
+.d-none {
+    display: none;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
 
 
 /*! Sidebar  */
@@ -106,6 +122,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: calc(100vh - 100px);
 }
 
 .top-nav,
@@ -115,6 +132,61 @@ p {
     text-align: center;
 }
 
+
+/* Top nav */
+.top-nav {
+    overflow: hidden;
+}
+
+.playlist {
+    margin-top: 10px;
+}
+
+
+.playlist h4 {
+    text-transform: uppercase;
+}
+
+.playlist-action {
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.playlist-list {
+    color: gray;
+}
+
+
+/* Bottom Nav */
+.install {
+    margin-bottom: 10px;
+}
+
+.profile {
+    text-align: left;
+}
+
+.install span,
+.profile span {
+    font-size: 12px;
+}
+
+.install a,
+.profile a {
+    text-transform: none;
+}
+
+.install img,
+.profile img {
+    vertical-align: middle;
+}
+
+.profile span {
+    color: #fff;
+    font-weight: 600;
+}
 
 /*? Main */
 main {
@@ -179,7 +251,6 @@ footer {
 
     display: flex;
     gap: 10px;
-    /* justify-content: center; */
 }
 
 /* Footer Info */
@@ -292,8 +363,52 @@ footer {
 
 /* Media Query */
 @media screen and (min-width: 576px) {
-    #sidebar {
-        flex-basis: 200px;
+
+    /*? Display */
+    .d-sm-none {
+        display: none;
     }
 
+    .d-sm-inline {
+        display: inline;
+    }
+
+    .d-sm-block {
+        display: block;
+    }
+
+    .d-sm-flex {
+        display: flex;
+    }
+
+    /*! Sidebar */
+    #sidebar {
+        flex-basis: 200px;
+        align-items: start;
+    }
+
+    .top-nav {
+        text-align: left;
+
+    }
+
+    .top-nav ul {
+        margin-top: 20px;
+    }
+
+    .top-nav li img {
+        width: 30px;
+        vertical-align: middle;
+        margin: 5px 0;
+    }
+
+    .top-nav li a span {
+        text-transform: none;
+    }
+
+    .install {
+        width: 180px;
+        border-bottom: 1px solid gray;
+        text-align: left;
+    }
 }
