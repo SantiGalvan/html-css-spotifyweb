@@ -423,6 +423,20 @@ footer {
     display: none;
 }
 
+.progress-indicator {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    bottom: 0;
+
+    translate: 0 -50%;
+}
+
 .progress-bar:hover .progress-actual {
     display: block;
 }
@@ -430,6 +444,7 @@ footer {
 /* Footer Action */
 .footer-action {
     flex-basis: 30%;
+    margin-right: 10px;
 
     display: flex;
     align-items: center;
@@ -446,44 +461,6 @@ footer {
     color: #fff;
     font-size: 12px;
     line-height: 100px;
-}
-
-.action-bar {
-    flex-grow: 1;
-    border-bottom: 4px solid gray;
-    border-radius: 2px;
-    margin-right: 10px;
-    cursor: pointer;
-
-    position: relative;
-}
-
-.action-bar .bar-progress {
-    border: 2px solid white;
-    border-radius: 2px;
-    width: 35%;
-
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.action-bar:hover .progress-actual {
-    display: block;
-}
-
-.progress-indicator {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    bottom: 0;
-
-    translate: 0 -50%;
 }
 
 
