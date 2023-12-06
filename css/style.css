@@ -163,6 +163,11 @@ p {
     text-transform: none;
 }
 
+.top-nav ul li.current::before {
+    content: "";
+    border: 1px solid #adff2f;
+}
+
 /* Bottom Nav */
 .bottom-nav {
     height: 90px;
@@ -227,6 +232,15 @@ main {
     column-gap: 30px;
     row-gap: 20px;
     font-size: 0.8rem
+}
+
+.options-list li.active::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #adff2f;
+    margin: 3px auto;
 }
 
 /* Section Play */
