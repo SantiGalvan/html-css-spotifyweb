@@ -136,6 +136,7 @@ p {
 /* Top nav */
 .top-nav {
     overflow: hidden;
+    height: calc(100% - 90px);
 }
 
 .playlist {
@@ -158,8 +159,15 @@ p {
     color: gray;
 }
 
+.playlist-list a {
+    text-transform: none;
+}
 
 /* Bottom Nav */
+.bottom-nav {
+    height: 90px;
+}
+
 .install {
     margin-bottom: 10px;
 }
@@ -387,6 +395,7 @@ footer {
         align-items: start;
     }
 
+    /* Top Nav */
     .top-nav {
         text-align: left;
 
@@ -406,6 +415,7 @@ footer {
         text-transform: none;
     }
 
+    /* Bottom Nav */
     .install {
         width: 180px;
         border-bottom: 1px solid gray;
